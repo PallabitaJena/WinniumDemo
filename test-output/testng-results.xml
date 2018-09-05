@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="26048" started-at="2018-09-05T06:21:21Z" finished-at="2018-09-05T06:21:47Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="26048" started-at="2018-09-05T06:21:21Z" finished-at="2018-09-05T06:21:47Z">
+      <class name="testCase.DemoForSap">
+        <test-method status="PASS" signature="setupEnvironment()[pri:0, instance:testCase.DemoForSap@12cdcf4]" name="setupEnvironment" is-config="true" duration-ms="1020" started-at="2018-09-05T11:51:21Z" finished-at="2018-09-05T11:51:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupEnvironment -->
+        <test-method status="FAIL" signature="selectElement()[pri:0, instance:testCase.DemoForSap@12cdcf4]" name="selectElement" duration-ms="25000" started-at="2018-09-05T11:51:22Z" finished-at="2018-09-05T11:51:47Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Element cannot be found (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 13.89 secondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'System info: host: 'BHUIVL381850D', ip: '10.119.41.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'Driver info: org.openqa.selenium.winium.WiniumDriverCapabilities [{app=C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe, args=, innerPort=9998, debugConnectToRunningApp=false, keyboardSimulator=1, launchDelay=0, platform=ANY}]Session ID: AwesomeSession*** Element info: {Using=name, value=Application Server:}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Element cannot be found (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 13.89 secondsFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.htmlBuild info: version: '2.48.2', revision: '41bccdd10cf2c0560f637404c2d96164b67d9d67', time: '2015-10-09 13:08:06'System info: host: 'BHUIVL381850D', ip: '10.119.41.15', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_141'Driver info: org.openqa.selenium.winium.WiniumDriverCapabilities [{app=C:\Program Files (x86)\SAP\FrontEnd\SAPgui\saplogon.exe, args=, innerPort=9998, debugConnectToRunningApp=false, keyboardSimulator=1, launchDelay=0, platform=ANY}]Session ID: AwesomeSession*** Element info: {Using=name, value=Application Server:}at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)at java.lang.reflect.Constructor.newInstance(Unknown Source)at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:647)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:451)at org.openqa.selenium.By$ByName.findElement(By.java:303)at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:345)at testCase.DemoForSap.selectElement(DemoForSap.java:85)at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)at java.lang.reflect.Method.invoke(Unknown Source)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectElement -->
+      </class> <!-- testCase.DemoForSap -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
